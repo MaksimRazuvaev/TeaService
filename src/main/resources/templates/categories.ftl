@@ -8,8 +8,23 @@
     <title>Document</title>
 </head>
 <body>
-<#list allCategories as user>
-<p>${user}
+
+<h2>Basic HTML Table</h2>
+
+<table style="width:100%">
+    <tr>
+        <th>ID</th>
+        <th>Category Name</th>
+    </tr>
+    <#list atemp as c>
+    <tr>
+        <td>${c.getId()}</td>
+        <td>${c.getCategoryName()}</td>
+    </tr>
     </#list>
+
+</table>
+
+
 </body>
 </html>

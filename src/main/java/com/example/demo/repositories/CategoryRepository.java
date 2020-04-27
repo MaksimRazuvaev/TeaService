@@ -8,6 +8,6 @@ import java.util.List;
 //First step is to write them in the interface and then implement in the "java class"
 public interface CategoryRepository {
     void add(Category name);
-    void delete(Category name);
+    void delete(Long id);
     List<Category> getAllCategories();
 }

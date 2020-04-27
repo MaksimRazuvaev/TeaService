@@ -17,8 +17,8 @@ public class CategoryServiceImpl implements CategoryService {
         categoryRepository.add(name);
     }
 
-    public void delete(Category name) {
-        categoryRepository.delete(name);
+    public void delete(Long id) {
+        categoryRepository.delete(id);
     }
 
     public List<Category> getAllCategories() {
