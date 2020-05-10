@@ -48,7 +48,7 @@ public class CategoryRepositoryImpl implements CategoryRepository {
 
 
     public void add(Category category) {
-        // ? jdbcTemplate.update(ADD_CATEGORIES, new Long[]{category.getId()}, category.getCategoryName());
+        jdbcTemplate.update(ADD_CATEGORIES);
     }
 
     public void delete(Long id) {

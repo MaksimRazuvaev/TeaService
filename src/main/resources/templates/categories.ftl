@@ -16,7 +16,7 @@
         <th>ID</th>
         <th>Category Name</th>
     </tr>
-    <#list atemp as c>
+    <#list categories as c>
     <tr>
         <td>${c.getId()}</td>
         <td>${c.getCategoryName()}</td>

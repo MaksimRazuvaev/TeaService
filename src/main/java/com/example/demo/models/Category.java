@@ -22,5 +22,4 @@ public class Category {
         this.id = id;
         this.categoryName = categoryName;
     }
-
 }
